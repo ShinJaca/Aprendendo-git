@@ -5,9 +5,9 @@ Esse arquivo irá ter todos os comandos do curso Git
 ```shell
 $ git config --global user.name "Marcelo Bião"
 $ git config --global user.email "marcelobiao2@gmail.com"
-$ git init
-$ git status
-$ git clone <url> # Clona o repositório da url  
+$ git init # Inicializa um repositório na pasta atual
+$ git status # Checa o status do repositório atual
+$ git clone <url> # Clona o repositório da url
 ```
 
 ## Comandos de Log
@@ -19,9 +19,9 @@ $ git log --full-diff -p README.md
 ## Trabalhando com branchs
 ```shell
 $ git checkout -b <name> # Cria e faz checkout na nova branch
-$ git checkout <name> # Altera entre as branchs
+$ git checkout <name> # Altera entre as branches
 $ git branch <name> # Cria uma nova branch
-$ git checkout <name> # Alterna entre as branchs
+$ git branch -r #Checa branches remotas, caso haja
 ```
 
 ## Checkout
@@ -42,5 +42,3 @@ $ git tag -d v0.0.1                     # Apaga uma tag
 $ git remote add origin <url>
 $ git push -u origin master # apenas a primeira vez
 ```
-
-# teste.
